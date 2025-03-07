@@ -133,3 +133,7 @@ document.querySelectorAll("button").forEach((btn) => {
     gsap.to(btn, { scale: 1, duration: 0.3, ease: "power2.out" });
   });
 });
+
+function redirectToStreamlit() {
+  window.open("https://efe9d6d6f1bb3f6cd6.gradio.live", "_blank");  // Replace with your actual Streamlit ngrok URL
+}
