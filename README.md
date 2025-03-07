@@ -1,9 +1,9 @@
 # ComicWala
 
 ## Overview
-ComicWala is a visually engaging website that integrates **Gradio** for an interactive AI-powered comic generation system. The website leverages **LLMs (Large Language Models)** to generate comic scripts based on user prompts and **Stable Diffusion** to create comic-style images based on the generated stories.
+ComicWala is a visually engaging and responsive website that integrates **Gradio** for an interactive AI-powered comic generation system. The website leverages **LLMs (Large Language Models)** to generate comic scripts based on user prompts and **Stable Diffusion** to create comic-style images based on the generated stories.
 
-Additionally, ComicWala uses LocomotiveJS, GSAP for animations across the website.
+Additionally, ComicWala uses LocomotiveJS, GSAP for animations across the website and it can be used on **mobile phones** as well.
 
 ## Features
 - **Smooth Scrolling** with Locomotive Scroll
