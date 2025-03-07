@@ -71,8 +71,8 @@ html, body {
     /* background-color: blue; */
 }
 #btn{
-    padding: 20px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 3px;
     transition: all 0.3s ease-in-out 0s;
 }
 #btn:hover{
