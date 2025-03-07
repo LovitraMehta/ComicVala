@@ -74,9 +74,9 @@ html, body {
 /* CSS */
 #btn {
   all: unset;
-  width: 100px;
-  height: 30px;
-  font-size: 16px;
+  width: 80px;
+  height: 25px;
+  font-size: 15px;
   background: transparent;
   border: none;
   position: relative;
