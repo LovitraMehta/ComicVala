@@ -138,6 +138,11 @@ html, body {
   transition: 0s;
   transform: translate(0, 5%);
 }
+.buttonGrp{
+    display: flex;
+    gap: 1rem;
+}
+
 #elem2 {
     width: 30%;
     height: 100%;
