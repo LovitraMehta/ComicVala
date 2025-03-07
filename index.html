@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicWala</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="page1">
+            <div id="nav">
+                <h5>ChaiFi</h5>
+                <!-- <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/5f7f87c8b81a6e7a214312f0_header.svg" alt=""> -->
+                
+                <i class="ri-menu-3-line"></i>
+            </div>
+            <div id="elems">
+                <div id="elem1">
+                    <div id="image-div">
+                        <img src="superhero.avif"
+                            alt="">
+                    </div>
+                    <h4>Superhero Chronicles</h4>
+                    <p>A thrilling new adventure where heroes rise and villains fall.</p>
+                </div>
+                <div id="elem2">
+                    <h2>ComicWala!</h2>
+                    <h3>Generate AI-powered <br>comics instantly.</h3>
+                    <button id="btn" onclick="redirectToStreamlit()">Try Now</button>
+                </div>
+                <div id="elem3">
+                    <div id="image-div">
+                        <img src="scienceAI.jpg"
+                            alt="">
+                    </div>
+                    <h4>Science Explorers</h4>
+                    <p>Join a team of young scientists as they travel through time, uncovering the greatest discoveries in history!</p>
+                </div>
+
+            </div>
+            
+        </div>
+        <div id="page2">
+            <div id="page2-left">
+                <h2>Create <span>Comics!</span></h2>
+                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg" alt="">
+                <p>Describe your story idea, and our AI will generate a unique comic strip just for you.</p>
+            </div>
+            <div id="page2-right">
+                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg" alt="">
+                <h1>Bring Stories to Life with AI!</h1>
+            </div>
+        </div>
+        <div id="page3">
+            <h1>Comics!</h1>
+            <img src="how-to-write-an-article-comic-1643125348039-articleLarge.webp" alt="">
+        </div>
+        <div id="page4">
+            <div id="page4-left">
+                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3.jpeg" alt="">
+            </div>
+            <div id="page4-right">
+                <p>From superheroes to fantasy realms, create endless comic strips with the power of AI! Just enter a prompt and watch the magic happen.</p>
+                <!-- <div id="anda">
+                    <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/61001a3509319b6ae39e156b_arrow-long.svg" alt="">
+                    <h1>All Work</h1>
+                </div> -->
+            </div>
+        </div>
+        <div id="page5">
+            <h1>Turn your ideas into comics! <span>Try Now</span></h1>
+            <h1>Turn your ideas into comics! <span>Try Now</span></h1>
+            <h1>Turn your ideas into comics! <span>Try Now</span></h1>
+        </div>
+        <div id="page6">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <script>
+        function redirectToStreamlit() {
+            window.open("https://5dfea195155c3f69a7.gradio.live", "_blank");  // Replace with your actual Streamlit ngrok URL
+        }
+    </script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
